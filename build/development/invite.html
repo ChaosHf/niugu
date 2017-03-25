@@ -17,7 +17,11 @@
   <!-- endbower -->
   <!-- endbuild -->
   <!-- end -->
-
+  <!-- rev-hash -->
+  <!-- build:css assets/css/index.css -->
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <!-- endbuild -->
+  <!-- end -->
   <!-- rev-hash -->
   <!-- build:css assets/css/niugu.css -->
   <link rel="stylesheet" href="/assets/css/rem.css">
@@ -32,44 +36,64 @@
   <div id="page-invite" class="page">
     <div class="content">
       <div class="banner">
-        <img src="_assets/images/invite/banner.png" alt="">
-
+        <img src="assets/images/invite/banner.png" alt="">
         <div class="banner-text">分享跟操盘首页或者任意导师详情页，用户通过链接进入即算您的客户，每次消费您都可获100元奖励</div>
       </div>
-      <div class="icon-content">
-        <div class="icon-box">
+      <div class="list-block icon-content">
+        <div class="icon-block disblock">
+          <div class="icon-box">
           <span class="icon-small">
-            <img src="_assets/images/invite/icon-wechat.png" alt="">
+            <img src="assets/images/invite/icon-wechat.png" alt="">
             <span class="icon-title">微信好友</span>
           </span>
-          <span class="icon-small">
-            <img src="_assets/images/invite/icon-moments.png" alt="">
+            <span class="icon-small">
+            <img src="assets/images/invite/icon-moments.png" alt="">
             <span class="icon-title">朋友圈</span>
           </span>
-          <span class="icon-small">
-            <img src="_assets/images/invite/icon-message.png" alt="">
+            <span class="icon-small">
+            <img src="assets/images/invite/icon-message.png" alt="">
              <span class="icon-title">短信</span>
           </span>
-        </div>
-        <div class="icon-box">
+          </div>
+          <div class="icon-box">
           <span class="icon-small">
-            <img src="_assets/images/invite/icon-weibo.png" alt="">
+            <img src="assets/images/invite/icon-weibo.png" alt="">
             <span class="icon-title">微博</span>
           </span>
-          <span class="icon-small">
-            <img src="_assets/images/invite/icon-qq.png" alt="">
+            <span class="icon-small">
+            <img src="assets/images/invite/icon-qq.png" alt="">
             <span class="icon-title">QQ好友</span>
           </span>
-          <span class="icon-small">
-            <img src="_assets/images/invite/icon-qzone.png" alt="">
+            <span class="icon-small">
+            <img src="assets/images/invite/icon-qzone.png" alt="">
              <span class="icon-title">QQ空间</span>
           </span>
+          </div>
         </div>
-        <div class="invite-code">生成邀请码</div>
+        <div class="qr-block disnone">
+          <img src="assets/images/invite/qr.png" alt="">
+        </div>
+        <div class="invite-code j-havecode">生成邀请码</div>
         <div class="invite-ps">长按复制您的专属邀请链接，分享给您的朋友获得更多奖励</div>
         <div class="invite-spread">推广建议</div>
-        <div class="invite-mine">
-
+        <div class="item-content invite-mine">
+          <div class="item-inner">
+            <div class="item-title mine-left">我的账户:<span class="mine-money">300.00</span>元</div>
+            <div class="mine-right">提现</div>
+          </div>
+        </div>
+        <div class="invite-lists">
+          <div class="lists-box">
+            <div class="lists-title">您已获得<span class="lists-money">300.00</span>元奖励</div>
+            <div class="lists-content">
+              <div class="lists-text">
+                <span class="lists-no lists-sm">1</span><span class="lists-name lists-sm">黑白猫</span><span class="lists-status">未订阅导师</span>
+              </div>
+              <div class="lists-text">
+                <span class="lists-no lists-sm">2</span><span class="lists-name lists-sm">黑白猫</span><span class="lists-status">已订阅奖励100</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -105,7 +129,7 @@
 
 <!-- rev-hash -->
 <!-- build:js assets/scripts/invite.js -->
-
+<script src="_assets/scripts/invite.js"></script>
 <script src="_assets/scripts/main.js"></script>
 <!-- endbuild -->
 <!-- end -->
