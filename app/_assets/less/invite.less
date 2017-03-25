@@ -1,3 +1,8 @@
+/* Variables */
+@import "variables.less";
+/* Mixins */
+@import "mixins.less";
+@import "_mixins";
 #page-invite{
   background: #fff;
   .content{
@@ -71,7 +76,8 @@
       color:#fff;
       text-align: center;
       font-size: 13px;
-      margin: 0 115px;
+      margin: 0 auto;
+      width: 90px;
       background-color: #f05724;
       height: 44px;
       line-height: 44px;
@@ -83,7 +89,7 @@
       padding: 10px 35px;
       font-size: 15px;
       .item-inner{
-        border: none;
+        .hairline-remove(bottom);
         padding: 0;
         &::after{
           display: none;

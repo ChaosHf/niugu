@@ -42,7 +42,7 @@ module.exports = {
     src: [developmentAssets]
   },
   styles: {
-    src:  [srcAssets + '/less/rem.less', srcAssets + '/less/index.less', srcAssets + '/less/invite.less'],
+    src:  [srcAssets + '/less/rem.less', srcAssets + '/less/niugu.less', srcAssets + '/less/invite.less'],
     filter:{
       rem: ['**', '!**/rem.css']
     },
