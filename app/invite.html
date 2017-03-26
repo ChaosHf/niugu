@@ -36,10 +36,11 @@
     <div class="content">
       <div class="banner">
         <img src="assets/images/invite/banner.png" alt="">
+
         <div class="banner-text">分享跟操盘首页或者任意导师详情页，用户通过链接进入即算您的客户，每次消费您都可获100元奖励</div>
       </div>
       <div class="list-block icon-content">
-        <div class="icon-block disblock">
+        <div class="icon-block disnone">
           <div class="icon-box">
           <span class="icon-small">
             <img src="assets/images/invite/icon-wechat.png" alt="">
@@ -69,7 +70,7 @@
           </span>
           </div>
         </div>
-        <div class="qr-block disnone">
+        <div class="qr-block disblock">
           <img src="assets/images/invite/qr.png" alt="">
         </div>
         <div class="invite-code j-havecode">生成邀请码</div>
@@ -78,7 +79,7 @@
         <div class="item-content invite-mine">
           <div class="item-inner">
             <div class="item-title mine-left">我的账户:<span class="mine-money">300.00</span>元</div>
-            <div class="mine-right">提现</div>
+            <div class="mine-right j-rule_click">提现</div>
           </div>
         </div>
         <div class="invite-lists">
@@ -86,13 +87,45 @@
             <div class="lists-title">您已获得<span class="lists-money">300.00</span>元奖励</div>
             <div class="lists-content">
               <div class="lists-text">
-                <span class="lists-no lists-sm">1</span><span class="lists-name lists-sm">黑白猫</span><span class="lists-status">未订阅导师</span>
+                <span class="lists-no lists-sm">1</span><span class="lists-name lists-sm">黑白猫</span><span
+                class="lists-status">未订阅导师</span>
               </div>
               <div class="lists-text">
-                <span class="lists-no lists-sm">2</span><span class="lists-name lists-sm">黑白猫</span><span class="lists-status">已订阅奖励100</span>
+                <span class="lists-no lists-sm">2</span><span class="lists-name lists-sm">黑白猫</span><span
+                class="lists-status">已订阅奖励100</span>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <!---->
+    <div class="m-alert cash-content j-plate_rule" style="display: none">
+      <div class="m-plate_sure_layer">
+        <div class="close_box j-close j-sure_close" data-close-obj=".j-plate_rule">
+          <img class='close_img' src="assets/images/invite/xx-1.png" alt="">
+        </div>
+        <div class="list-block item f-cb cash-box">
+            <div class="item-content cash-text">
+              <div class="item-title cash-title">金额：</div>
+              <input type="text" class="cash-input">
+              <span class="cash-end">元</span>
+            </div>
+            <div class="item-content cash-text">
+              <div class="item-title cash-title">支付宝：</div>
+              <input type="text" class="cash-input">
+              <span class="cash-end"></span>
+            </div>
+            <div class="item-content cash-text">
+              <div class="item-title cash-title">姓名：</div>
+              <input type="text" class="cash-input">
+              <span class="cash-end"></span>
+            </div>
+
+        </div>
+        <div class="button_box f-cb">
+          <!--<button type="button" class="button-left j-plate_change">修改</button>-->
+          <button type="button" class="button-right j-sure">确认</button>
         </div>
       </div>
     </div>
@@ -127,8 +160,9 @@
 <!-- end -->
 
 <!-- rev-hash -->
-<!-- build:js assets/scripts/invite.js -->
+<!-- build:js assets/scripts/niugu.js -->
 <script src="_assets/scripts/invite.js"></script>
+<script src="_assets/scripts/arena.js"></script>
 <script src="_assets/scripts/main.js"></script>
 <!-- endbuild -->
 <!-- end -->
