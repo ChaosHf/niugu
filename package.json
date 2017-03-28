@@ -88,5 +88,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "flexible": "^0.1.20"
   }
 }

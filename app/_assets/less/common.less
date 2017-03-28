@@ -1,10 +1,36 @@
+/* Variables */
+@import "base/variables.less";
+
+/* Mixins */
+@import "base/mixins.less";
+@import "base/_mixins.less";
+
 .disnone{
  display: none;
 }
 .disblock{
   display: block;
 }
-
+.no-after{
+  .hairline-remove(bottom);
+}
+.list-block{
+  margin: 0;
+}
+.bar{
+  background-color: #fcfcfc;
+}
+.bar-tab {
+  .tab-item.active{
+    color: #ff6000;
+  }
+}
+.icon:before{
+  font-size: 20px;
+}
+.tab-label{
+  font-size: 10px;
+}
 .m-alert{
   position: fixed;
   left: 0;
