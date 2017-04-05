@@ -1,5 +1,5 @@
 'use strict';
-$(document).on('pageInit', '#page-invite', function (e, id, page) {
+$(document).on('pageInit', '#page-index', function (e, id, page) {
   //$('.j-havecode').click(function () {
   //    if($('.qr-block').hasClass('disnone') && $('.icon-block').hasClass('disblock')){
   //      $('.qr-block').removeClass('disnone').addClass('disblock');
