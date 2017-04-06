@@ -1,47 +1,74 @@
 /* Variables */
 @import "base/variables.less";
-
 /* Mixins */
 @import "base/mixins.less";
 @import "base/_mixins.less";
-
-.disnone{
- display: none;
-}
-.disblock{
-  display: block;
-}
-.f-l{
-  float: left;
-}
-.f-r{
-  float: right;
-}
-.no-after{
-  .hairline-remove(bottom);
-}
-.noClick{
-  color:#bbbbbb !important;
-  background-color: #e3e3e3 !important;
-}
-.list-block{
+p{
   margin: 0;
 }
-.bar{
-  background-color: #fcfcfc;
+.disnone {
+  display: none;
 }
-.bar-tab {
-  .tab-item.active{
-    color: #ff6000;
+
+.disblock {
+  display: block;
+}
+.page-content{
+  bottom: 5.5rem;
+}
+.buttons-tab{
+  .tab-link.active{
+    color:#f42241;
+    border-color: #f42241;
+  }
+  .tab-link{
+    font-size: 13px;
   }
 }
-.icon:before{
+a.button:active {
+  color: #f42241;
+  border-color: #f42241;
+}
+.f-l {
+  float: left;
+}
+
+.f-r {
+  float: right;
+}
+
+.no-after {
+  .hairline-remove(bottom);
+}
+
+.noClick {
+  color: #bbbbbb !important;
+  background-color: #e3e3e3 !important;
+}
+
+.list-block {
+  margin: 0;
+}
+
+.bar {
+  background-color: #fcfcfc;
+}
+
+.bar-tab {
+  .tab-item.active {
+    color: #f42241;
+  }
+}
+
+.icon:before {
   font-size: 20px;
 }
-.tab-label{
+
+.tab-label {
   font-size: 10px;
 }
-.m-alert{
+
+.m-alert {
   position: fixed;
   left: 0;
   top: 0;
@@ -74,7 +101,7 @@
       .box {
         margin-left: 60px;
         position: relative;
-        .pan-change{
+        .pan-change {
           position: absolute;
           width: 24px;
           top: 10px;
@@ -151,19 +178,19 @@
       }
     }
   }
-  .m-plate_rule{
+  .m-plate_rule {
     height: auto;
     text-align: center;
     color: #783429;
     padding: 15px;
-    .rule-title{
+    .rule-title {
       font-size: 16px;
       padding: 12px 0;
     }
-    .rule-content{
+    .rule-content {
       text-align: left;
       padding-bottom: 10px;
-      p{
+      p {
         color: #783429;
         margin: 0;
         line-height: 1.8;
