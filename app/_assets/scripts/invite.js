@@ -1,6 +1,3 @@
-/**
- * Created by 炼 on 2017/3/25.
- */
 'use strict';
 $(document).on('pageInit', '#page-invite', function (e, id, page) {
   //$('.j-havecode').click(function () {

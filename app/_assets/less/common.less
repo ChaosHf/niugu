@@ -1,11 +1,77 @@
-.disnone{
- display: none;
+/* Variables */
+@import "base/variables.less";
+/* Mixins */
+@import "base/mixins.less";
+@import "base/_mixins.less";
+p{
+  margin: 0;
 }
-.disblock{
-  display: block;
+.disnone {
+  display: none;
 }
 
-.m-alert{
+.disblock {
+  display: block;
+}
+.page-content{
+  bottom: 5.5rem;
+}
+.buttons-tab{
+  .tab-link.active{
+    color:#f42241;
+    border-color: #f42241;
+  }
+  .tab-link{
+    font-size: 13px;
+  }
+}
+a.button:active {
+  color: #f42241;
+  border-color: #f42241;
+}
+.t-red{
+  color: #f42241;
+}
+.f-l {
+  float: left;
+}
+
+.f-r {
+  float: right;
+}
+
+.no-after {
+  .hairline-remove(bottom);
+}
+
+.noClick {
+  color: #bbbbbb !important;
+  background-color: #e3e3e3 !important;
+}
+
+.list-block {
+  margin: 0;
+}
+
+.bar {
+  background-color: #fcfcfc;
+}
+
+.bar-tab {
+  .tab-item.active {
+    color: #f42241;
+  }
+}
+
+.icon:before {
+  font-size: 20px;
+}
+
+.tab-label {
+  font-size: 10px;
+}
+
+.m-alert {
   position: fixed;
   left: 0;
   top: 0;
@@ -38,7 +104,7 @@
       .box {
         margin-left: 60px;
         position: relative;
-        .pan-change{
+        .pan-change {
           position: absolute;
           width: 24px;
           top: 10px;
@@ -115,19 +181,19 @@
       }
     }
   }
-  .m-plate_rule{
+  .m-plate_rule {
     height: auto;
     text-align: center;
     color: #783429;
     padding: 15px;
-    .rule-title{
+    .rule-title {
       font-size: 16px;
       padding: 12px 0;
     }
-    .rule-content{
+    .rule-content {
       text-align: left;
       padding-bottom: 10px;
-      p{
+      p {
         color: #783429;
         margin: 0;
         line-height: 1.8;
@@ -135,4 +201,61 @@
       }
     }
   }
+}
+
+
+//阅读头部
+.per-info{
+  position: relative;
+  height: 68px;
+  width: 100%;
+  background: #fff;
+  line-height: 63px;
+  padding: 0 8px;
+  margin-bottom: 5px;
+  font-size: 0;
+  .note-avatar{
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+  }
+  .note-per{
+    padding-left: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1;
+    .note-per-title{
+      color: #111;
+      font-size: 15px;
+      padding-bottom: 4px;
+    }
+    .note-per-content{
+      color: #bbb;
+      font-size: 10px;
+      span{
+        padding-left: 5px;
+      }
+    }
+  }
+  .note-concern{
+    position: absolute;
+    display: inline-block;
+    right: 8px;
+    bottom: 50%;
+    margin-bottom: -11px;
+    width: 60px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 11px;
+    color: #f42241;
+    border: 1px solid #f42241;
+    border-radius: 11px;
+    text-align: center;
+    &.haven{
+      color :#bbb;
+      border: 1px solid #bbb;
+    }
+  }
+
 }
