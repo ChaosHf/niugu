@@ -206,6 +206,7 @@
   }
   .read-content{
     background: #fff;
+    margin-bottom: 5px;
     .read-content-title{
       font-size: 0;
       height: 38px;
@@ -232,6 +233,14 @@
     .read-content-box{
       font-size: 0;
       .read-content-panel{
+        display: flex;
+        padding: 7px 10px;
+        white-space: nowrap;
+        border-bottom: 1px solid #e9e9e9;
+        .read-box-left{
+          flex: 1;
+          white-space: nowrap;
+        }
         .read-avatar{
           vertical-align: middle;
           width: 35px;
@@ -247,13 +256,67 @@
             color: #111;
             font-size: 13px;
             padding-bottom: 4px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 130px;
           }
           .read-per-content{
             color: #bbb;
             font-size: 10px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 130px;
+          }
+        }
+        .read-time{
+          font-size: 0;
+          flex: 1;
+          text-align: right;;
+          .read-time-title{
+            line-height: 1;
+            padding-bottom: 5px;
+            padding-top: 2px;
+            .read-time-icon{
+              display: inline-block;
+              background: url('../images/note/icon-b.png')no-repeat center;
+              background-size: 11px 11px;
+              width: 11px;
+              height: 11px;
+              margin-right: 3px;
+            }
+            .read-time-text{
+              color: #f42241;
+              font-size: 10px;
+            }
+          }
+          .read-time-content{
+            line-height: 1;
+            color: #797979;
+            font-size: 10px;
+            .read-time-date{
+              padding-right: 3px;
+            }
           }
         }
       }
+    }
+  }
+  .note-qrcode{
+    background: #fff;
+    text-align: center;
+    padding: 15px 0;
+    .qrcode-text{
+      color: #bbb;
+      font-size: 13px;
+      padding-bottom: 15px;
+    }
+    .qrcode-img{
+      display: block;
+      margin: 0 auto;
+      width: 118px;
+      height: 118px;
     }
   }
 }
