@@ -82,49 +82,20 @@ a.button:active {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
-  z-index: 999;
+  z-index: 9999;
   .close_box {
+    position: absolute;
+    color: @color-primary;
+    right: 0;
+    top: 0;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     .close_img {
       width: 18px;
     }
   }
-  .item {
-    .item-left {
-      float: left;
-      position: relative;
-      height: 100%;
-      width: 50px;
-      margin-right: -50px;
-      .city_box {
-        position: relative;
-        top: 7px;
-      }
-    }
-    .item-right {
-      float: right;
-      width: 100%;
-      .box {
-        margin-left: 60px;
-        position: relative;
-        .pan-change {
-          position: absolute;
-          width: 24px;
-          top: 10px;
-          right: 12px;
-        }
-      }
-    }
-    .item_input {
-      display: block;
-      width: 100%;
-      height: 44px;
-      padding: 10px 0;
-      line-height: 24px;
-      border: none;
-      font-size: @font-ft1;
-    }
-  }
-
   .m-plate_sure_layer {
     position: absolute;
     left: 50%;
@@ -137,27 +108,6 @@ a.button:active {
     border-radius: 4px;
     padding: 10px 30px;
     text-align: center;
-    .close_box {
-      position: absolute;
-      color: @color-primary;
-      right: 0;
-      top: 0;
-      font-size: 18px;
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
-    }
-    hr {
-      border: 0;
-      border-bottom: 1px solid @color-ft5;
-      margin-top: 12px;
-      margin-bottom: 20px;
-    }
-    .content_word {
-      padding-top: 10px;
-      color: @color-ft3;
-      font-size: @font-ft3;
-    }
     .button_box {
       margin-top: 20px;
       font-size: @font-ft1;
@@ -165,14 +115,6 @@ a.button:active {
       button {
         border: none;
         padding: 0;
-      }
-      .button-left {
-        line-height: 45px;
-        height: 45px;
-        width: 139px;
-        border-radius: 5px;
-        float: left;
-        background-color: @color-warning;
       }
       .button-right {
         line-height: 42px;
@@ -183,23 +125,67 @@ a.button:active {
       }
     }
   }
-  .m-plate_rule {
-    height: auto;
-    text-align: center;
-    color: #783429;
-    padding: 15px;
-    .rule-title {
-      font-size: 16px;
-      padding: 12px 0;
+  .m-red-layer{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    margin-left: -150px;
+    margin-top: -100px;
+    width: 300px;
+    background: #f42241;
+    border-radius: 5px;
+    .red-layer-banner{
+      background: url('../images/other/redbag.png')no-repeat center;
+      background-size: 100%;
+      width: 100%;
+      height: 122px;
+      padding-top: 20px;
+      .red-avatar{
+        display: block;
+        margin: 0 auto;
+        width: 45px;
+        height: 45px;
+      }
+      .red-name{
+        text-align: center;
+        color: #fff5b4;
+        font-size: 12px;
+        padding-top: 5px;
+      }
     }
-    .rule-content {
-      text-align: left;
-      padding-bottom: 10px;
-      p {
-        color: #783429;
-        margin: 0;
-        line-height: 1.8;
-        font-size: 14px;
+    .red-layer-content{
+      text-align: center;
+      padding-bottom: 23px;
+      .red-c-img{
+        display: block;
+        margin: 0 auto;
+        width: 70px;
+        height: 70px;
+      }
+      .red-c-money{
+        font-size: 19px;
+        color: #fff5b4;
+      }
+      .red-c-input{
+        border: 0;
+        border-radius: 5px;
+        width: 245px;
+        height: 35px;
+        line-height: 35px;
+        padding:0  5px;
+        font-size: 13px;
+        margin: 25px 0 ;
+      }
+      .red-c-button{
+        margin: 0 auto;
+        width: 245px;
+        height: 35px;
+        line-height: 35px;
+        background: #fde434;
+        border-radius: 35px;
+        font-weight: 700;
+        color: #f42241;
+        font-size: 15px;
       }
     }
   }

@@ -1,5 +1,5 @@
 'use strict';
-$(document).on('pageInit', '#page-note-read', function (e, id, page) {
+$(document).on('pageInit', '#page-media-info', function (e, id, page) {
   $('.j-red_click').click(function () {
     $('.j-plate_red').show();
   });
