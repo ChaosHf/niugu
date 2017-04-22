@@ -43,7 +43,7 @@
         <span class="icon icon-arena"></span>
         <span class="tab-label">擂台</span>
       </a>
-      <a class="tab-item" href="concern.html" external>
+      <a class="tab-item" href="media.html" external>
         <span class="icon icon-media"></span>
         <span class="tab-label">自媒体</span>
       </a>
@@ -70,16 +70,49 @@
     <div class="content page-content">
       <!--标签页-->
       <div class="buttons-tab">
-        <a href="#tab1" class="tab-link active button">群体擂台·免费</a>
-        <a href="#tab2" class="tab-link button">单体擂台·金币</a>
+        <a href="#tab1" class="tab-link  button" style="display: none">群体擂台·免费</a>
+        <a href="#tab2" class="tab-link active button">单体擂台·金币</a>
       </div>
       <div class="arena-tab">
         <div class="tabs">
-          <div id="tab1" class="tab active">
+          <div id="tab1" class="tab ">
             <p>This is tab 1 content</p>
           </div>
-          <div id="tab2" class="tab">
-            <p>This is tab 2 content</p>
+          <div id="tab2" class="tab active">
+            <div class="tab-content">
+              <div class="m-tab-select">
+                <span>筛选:</span>
+                <select class="u-select">
+                  <option value="1">显示全部擂台</option>
+                  <option value="2">显示全部擂台</option>
+                </select>
+              </div>
+              <div class="m-content">
+                <div class="m-c-panel">
+                  <div class="m-panel-l">
+                    <div class="m-money"><img src="assets/images/arena/ico_m.png" class="u-panel-img"><span>10金币</span></div>
+                    <div class="u-ps">今天</div>
+                  </div>
+                  <div class="m-panel-r">
+                    <div class="panel-r-box">
+                      <div class="m-avatar">
+                        <img src="assets/images/arena/avatar_none.png" alt="">
+                        <div class="u-name">超级牛股王</div>
+                      </div>
+                      <div class="m-rate-box">
+                        <div class="m-rate"><i class="" style="width: 50%;background: #f42241;height: 6px;display: block"></i></div>
+                        <div class="m-rate-title">等待应战</div>
+                      </div>
+
+                      <div class="m-avatar">
+                        <img src="assets/images/arena/avatar_none.png" alt="">
+                        <div class="u-name">邀请好友</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
