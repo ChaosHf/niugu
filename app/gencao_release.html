@@ -1,0 +1,117 @@
+                                                                                                       <!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <title>跟操盘</title>
+
+  <!-- rev-hash -->
+  <!-- build:css assets/css/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/light7/dist/css/light7.css"/>
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- end -->
+  <!-- rev-hash -->
+  <!-- build:css assets/css/gencaopan.css -->
+  <link rel="stylesheet" href="/assets/css/gencaopan.css">
+  <!-- endbuild -->
+  <!-- end -->
+  <!-- rev-hash -->
+  <!-- build:css assets/css/rem.css -->
+  <link rel="stylesheet" href="/assets/css/rem.css">
+  <!-- endbuild -->
+  <!-- end -->
+</head>
+<body>
+<!-- page集合的容器，里面放多个平行的.page，其他.page作为内联页面由路由控制展示 -->
+<div class="page-group">
+  <!-- 单个page ,第一个.page默认被展示-->
+  <div id="page-release" class="page">
+    <nav class="bar bar-tab">
+      <a class="tab-item " href="" external>
+        <span class="icon icon-niugu"><img src="assets/images/gencao/ico_1.png" alt=""></span>
+        <span class="tab-label">实时信号</span>
+      </a>
+      <a class="tab-item" href="gencao_media.html" external>
+        <span class="icon icon-media"><img src="assets/images/gencao/ico_2.png" alt=""></span>
+        <span class="tab-label">自媒体</span>
+      </a>
+      <a class="tab-item" href="arena.html" external>
+        <span class="icon icon-arena"><img src="assets/images/gencao/ico_3.png" alt=""></span>
+        <span class="tab-label">高手榜单</span>
+      </a>
+
+      <a class="tab-item" href="release.html" external>
+        <span class="icon icon-release"><img src="assets/images/gencao/ico_4.png" alt=""></span>
+        <span class="tab-label">个人中心</span>
+      </a>
+    </nav>
+    <div class="content">
+      <div class="list-block viewpoint-content">
+        <div class="item-content viewpoint-column special-col">
+          <div class="item-inner col-inner">
+            <div class="item-title label col-title">标题</div>
+            <input class="item-input col-input" type="number" placeholder="请输入观点标题">
+          </div>
+        </div>
+        <div class="item-content viewpoint-column col-margin">
+          <textarea placeholder="输入观点" class="col-textarea"></textarea>
+          <img src="assets/images/other/photo.png" alt="" class="photo-submit">
+        </div>
+        <div class="item-content viewpoint-column col-margin">
+          <div class="item-inner col-inner">
+            <div class="item-title col-title" style="width: 75%">封面照片是否显示在正文中</div>
+            <div class="item-input switch-width">
+              <label class="label-switch">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="viewpoint-submit">发布</div>
+      </div>
+    </div>
+    <div class="m-release"><span class="u-icon">+</span><span>发布</span></div>
+  </div>
+</div>
+<!-- rev-hash -->
+<!-- build:js assets/scripts/vendor/modernizr.js -->
+<script src="/bower_components/modernizr/modernizr.js"></script>
+<!-- endbuild -->
+<!-- end -->
+
+<!-- rev-hash -->
+<!-- build:js assets/scripts/vendor.js -->
+<!-- bower:js -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/js-cookie/src/js.cookie.js"></script>
+<script src="/bower_components/js-base64/base64.js"></script>
+<script src="/bower_components/arg.js/dist/arg-1.2.js"></script>
+<script src="/bower_components/jquery-md5/jquery.md5.js"></script>
+<script src="/bower_components/light7/dist/js/light7.js"></script>
+<script src="/bower_components/template.js/template.js"></script>
+<script src="/bower_components/fecha/fecha.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+<!-- end -->
+<!-- rev-hash -->
+<!-- build:js assets/scripts/gencaopan.js -->
+<script src="_assets/scripts/gencaopan.js"></script>
+<!-- endbuild -->
+<!-- end -->
+
+<!-- rev-hash -->
+<!-- build:js assets/scripts/main.js -->
+<script src="_assets/scripts/main.js"></script>
+<!-- endbuild -->
+<!-- end -->
+
+</body>
+</html>

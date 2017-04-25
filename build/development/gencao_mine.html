@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  <title>牛股世界</title>
+  <title>跟操盘</title>
 
   <!-- rev-hash -->
   <!-- build:css assets/css/vendor.css -->
@@ -60,11 +60,11 @@
             <div class="inner-text">擅长趋势操作 择时得当 盈利能持有</div>
             <div class="inner-btn">关注</div>
             <div class="mine-info">
-              <div class="info-box">
+              <div class="info-box j-show-info" data-show-obj=".mine-article">
                 <div class="info-num">68</div>
                 <div class="info-title">文章</div>
               </div>
-              <div class="info-box info-l">
+              <div class="info-box info-l j-show-info" data-show-obj=".mine-vp">
                 <div class="info-num">4</div>
                 <div class="info-title">实盘</div>
               </div>
@@ -134,6 +134,16 @@
 
             </div>
           </div>
+          <div class="mine-article" style="display: none">
+            <div class="media-panel">
+              <div class="panel-left">
+                <div class="left-title">2017/3月ST组合成分调T组合成分调T组合成分调整</div>
+                <div class="left-title">2017/3月ST组合成分调整</div>
+                <div class="left-content">妖股涨不停军团<div class="left-time">昨天22:45:56</div></div>
+              </div>
+              <img src="assets/images/media/title.png" alt="" class="panel-img">
+            </div>
+          </div>
         </div>
 
       </div>
@@ -142,7 +152,6 @@
     </div>
   </div>
 </div>
-<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <!-- rev-hash -->
 <!-- build:js assets/scripts/vendor/modernizr.js -->
 <script src="/bower_components/modernizr/modernizr.js"></script>
@@ -165,12 +174,10 @@
 <!-- end -->
 
 <!-- rev-hash -->
-<!-- build:js assets/scripts/common.js -->
-<script src="_assets/scripts/common.js"></script>
+<!-- build:js assets/scripts/gencaopan.js -->
+<script src="_assets/scripts/gencaopan.js"></script>
 <!-- endbuild -->
 <!-- end -->
-
-
 <!-- rev-hash -->
 <!-- build:js assets/scripts/main.js -->
 <script src="_assets/scripts/main.js"></script>

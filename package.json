@@ -63,7 +63,8 @@
       "MakeHF": true,
       "fecha": true,
       "define": true,
-      "triggerId": true
+      "triggerId": true,
+      "echarts": true
     },
     "rules": {
       "quotes": [
@@ -90,6 +91,7 @@
     }
   },
   "dependencies": {
+    "echarts": "^3.5.3",
     "flexible": "^0.1.20"
   }
 }

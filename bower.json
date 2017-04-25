@@ -11,7 +11,8 @@
     "light7": "light7-dqm#^0.4.4",
     "template.js": "^0.7.1",
     "fecha": "^2.3.0",
-    "lib-flexible": "*"
+    "lib-flexible": "*",
+    "echarts": "^3.5.3"
   },
   "devDependencies": {
     "mocha": "~2.3.4",
