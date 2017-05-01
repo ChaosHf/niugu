@@ -97,14 +97,36 @@
               flex: 1;
               text-align: center;
               display: inline-block;
+              position: relative;
               img{
                 width: 35px;
                 height: 35px;
                 margin-bottom: 5px;
               }
+              .u-name{
+                font-size: 12px;
+                color: #111;
+              }
+              .u-num{
+                font-size: 10px;
+                color: #bbb;
+              }
+              .u-tag{
+                position: absolute;
+                width: 32px;
+                height: 22px;
+                right:10px;
+                top:0;
+              }
             }
             .m-rate-box{
+              text-align: center;
               width: 92px;
+              .u-rate-per{
+                span{
+                  color:#f42241;
+                }
+              }
             }
             .m-rate{
               display: inline-block;
@@ -112,8 +134,11 @@
               width: 92px;
               background: #0072ff;
             }
+            .u-rate-per{
+              font-size: 10px;
+            }
             .m-rate-title{
-              text-align: center;
+              font-size: 10px;
             }
           }
           .m-panel-r *{

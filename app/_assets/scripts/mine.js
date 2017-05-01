@@ -1,6 +1,11 @@
 'use strict';
 $(document).on('pageInit', '#page-mine', function (e, id, page) {
-  $('.j-jump_account').click(function () {
-    window.location.href = 'account.html';
+  $('.j-name_click').click(function () {
+    $('.j-plate_name').show();
   });
+  $('.j-close').on('click', function () {
+    var close_obj = $(this).data('close-obj');
+    $(close_obj).hide();
+  });
+
 });

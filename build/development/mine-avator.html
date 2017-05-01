@@ -28,7 +28,7 @@
 <!-- page集合的容器，里面放多个平行的.page，其他.page作为内联页面由路由控制展示 -->
 <div class="page-group">
   <!-- 单个page ,第一个.page默认被展示-->
-  <div id="page-mine" class="page">
+  <div id="page-mine-avatar" class="page">
     <!--工具栏-->
     <nav class="bar bar-tab">
       <a class="tab-item" href="index.html" external>
@@ -96,8 +96,7 @@
           </div>
         </div>
         <div class="mine-content pd-l-75">
-          <a href="account.html" external>
-          <div class="item-content item-link mine-box ">
+          <div class="item-content item-link mine-box j-jump_account">
             <div class="item-media">
               <img src="assets/images/mine/coins.png" class="mine-icon" alt="">
             </div>
@@ -110,7 +109,6 @@
               </div>
             </div>
           </div>
-            </a>
         </div>
         <div class="mine-content">
           <div class="mine-inner">
@@ -172,7 +170,6 @@
         </div>
         <div class="mine-content">
           <div class="mine-inner">
-            <a href="setting.html" external>
             <div class="item-content item-link mine-box">
               <div class="item-media">
                 <img src="assets/images/mine/install.png" class="mine-icon" alt="">
@@ -183,21 +180,18 @@
                 </div>
               </div>
             </div>
-            </a>
           </div>
           <div class="mine-inner">
-            <a href="suggestion.html" external>
-              <div class="item-content item-link mine-box">
-                <div class="item-media">
-                  <img src="assets/images/mine/feedback.png" class="mine-icon" alt="">
-                </div>
-                <div class="item-inner no-after">
-                  <div class="item-title mine-text">
-                    <div class="mine-name">意见反馈</div>
-                  </div>
+            <div class="item-content item-link mine-box">
+              <div class="item-media">
+                <img src="assets/images/mine/feedback.png" class="mine-icon" alt="">
+              </div>
+              <div class="item-inner no-after">
+                <div class="item-title mine-text">
+                  <div class="mine-name">意见反馈</div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div class="mine-inner">
             <div class="item-content item-link mine-box">
@@ -225,7 +219,7 @@
       </div>
       <!--标签页-->
     </div>
-    <!--签名弹窗-->
+    <!--红包弹窗-->
     <div class="m-alert j-plate_name" style="display: none">
       <div class="m-name-layer">
         <div class="close_box j-close j-sure_close" data-close-obj=".j-plate_name">
